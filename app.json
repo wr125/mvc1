@@ -1,0 +1,13 @@
+{
+  "name": "Add members to a list in Go",
+  "description": "An mvc and crud app in Go",
+  "keywords": [
+    "mvc",
+    "crud",
+    "go",
+    "sample",
+    "example"
+  ],
+  "website": "http://github.com/wr125/mvc1",
+  "repository": "http://github.com/wr125/mvc1"
+}
