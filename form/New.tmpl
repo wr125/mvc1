@@ -1,0 +1,16 @@
+{{ define "New" }}
+  {{ template "Header" }}
+    {{ template "Menu" }}
+  </br>
+</br>
+   <h2>New Employee Name and City Location</h2>
+ </br>
+    <form method="POST" action="insert">
+      <label> Name </label><input type="text" name="name" />
+      <label> City </label><input type="text" name="city" />
+    </br></br>
+      <input class="btn btn-primary" type="submit" value="Save user" />
+    </form></br>
+    <a class="btn btn-primary" href="/">Back</a></br>
+  {{ template "Footer" }}
+{{ end }}

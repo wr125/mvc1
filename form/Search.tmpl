@@ -1,0 +1,23 @@
+{{ define "Search" }}
+  {{ template "Header" }}
+
+  <h2>Search by Username or City Location</h2>
+
+ </body>
+   <form class="example" action="/search" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="name">
+  <button type="submit"><i class="fa fa-search"></i></button>
+
+</form>
+
+</br>
+<p>Name: {{ .Name }}</p>
+<p>City:  {{ .City }}</p>
+<p>Id:  {{ .Id }}</p>
+</br>
+</body>
+
+  </br>
+    <a class="btn btn-primary" href="/">Back</a></br>
+  {{ template "Footer" }}
+{{ end }}
