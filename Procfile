@@ -1,1 +1,1 @@
-web: bin/mvc1
+web: mvc1
